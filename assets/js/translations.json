@@ -1,0 +1,32 @@
+{
+  "en": {
+    "title": "creative developer",
+    "contact": "Show Contacts",
+    "mail": "Email",
+    "location": "Location",
+    "phone": "Phone",
+    "about_title": "About me",
+    "resume": "Resume",
+    "portfolio": "Resume",
+    "about_text_1": "I am a Multimedia Engineer specializing in interactive product development, UX/UI design, web development, and immersive digital experiences. Passionate about blending technology with creativity,I leverage my expertise in programming, interface design, and usability to craft engaging, high-quality solutions that elevate user interaction and experience.",
+    "about_text_2": "With a strong ethical foundation and a critical approach, I bring project management and leadership abilities that enable me to thrive in multidisciplinary teams or entrepreneurial ventures within the multimedia industry. My continuous pursuit of knowledge keeps me at the forefront of industry trends, ensuring innovative and impactful outcomes in all my projects.",
+    "services_title": "What I'm doing",
+    "service_1_title": "Interactive Web Development",
+    "service_1_text": "Developing engaging and dynamic web experiences..."
+  },
+  "es": {
+    "title": "desarrolladora creativa",
+    "contact": "Información de Contacto",
+    "mail": "correo",
+    "location": "Ubicación",
+    "phone": "teléfono",
+    "about_title": "Sobre mí",
+    "resume": "Currículum",
+    "portfolio": "Portafolio",
+    "about_text_1": "Soy una Ingeniera Multimedia especializada en el desarrollo de productos interactivos, diseño UX/UI, desarrollo web y experiencias digitales inmersivas. Apasionada por combinar tecnología y creatividad, aprovecho mi experiencia en programación, diseño de interfaces y usabilidad para crear soluciones atractivas y de alta calidad que potencian la interacción y experiencia del usuario.",
+    "about_text_2": "Con una sólida base ética y un enfoque crítico, aporto habilidades de gestión de proyectos y liderazgo que me permiten sobresalir en equipos multidisciplinarios o iniciativas emprendedoras dentro de la industria multimedia. Mi constante búsqueda de conocimiento me mantiene a la vanguardia de las tendencias del sector, garantizando resultados innovadores y de impacto en todos mis proyectos.",
+    "services_title": "Lo que hago",
+    "service_1_title": "Desarrollo Web Interactivo",
+    "service_1_text": "Creando experiencias web dinámicas y atractivas..."
+  }
+}
