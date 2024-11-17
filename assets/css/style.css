@@ -61,7 +61,7 @@
   --white-2: rgb(30, 32, 30);
   --orange-yellow-crayola: rgb(60, 61, 55);
   --yellow-smooth: hsl(45, 68%, 77%);
-  --vegas-gold: rgb(60, 61, 55);
+  --vegas-gold: hsl(45, 68%, 77%);
   --light-dark: #1a1a1d;
   --light-dark-70: rgb(105, 117, 101);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -318,6 +318,28 @@ main {
   margin: 15px 12px;
   margin-bottom: 75px;
   min-width: 259px;
+}
+
+.language-toggle {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  padding: 8px 13px;
+  background-color: var(--onyx);
+  color: var(--white-2);
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: var(--transition-2);
+}
+
+.language-toggle:hover {
+  background: var(--bg-gradient-yellow-2);
+  color: var(--light-dark);
+  transition: var(--transition-1);
 }
 
 /*-----------------------------------*\

@@ -1,0 +1,22 @@
+{
+  "en": {
+    "name": "Valentina Restrepo",
+    "title": "creative developer",
+    "about_title": "About me",
+    "about_text_1": "I am a Multimedia Engineer specializing in interactive product development...",
+    "about_text_2": "With a strong ethical foundation and a critical approach...",
+    "services_title": "What I'm doing",
+    "service_1_title": "Interactive Web Development",
+    "service_1_text": "Developing engaging and dynamic web experiences..."
+  },
+  "es": {
+    "name": "Valentina Restrepo",
+    "title": "desarrolladora creativa",
+    "about_title": "Sobre mí",
+    "about_text_1": "Soy Ingeniera Multimedia especializada en desarrollo de productos interactivos...",
+    "about_text_2": "Con una base ética sólida y un enfoque crítico...",
+    "services_title": "Lo que hago",
+    "service_1_title": "Desarrollo Web Interactivo",
+    "service_1_text": "Creando experiencias web dinámicas y atractivas..."
+  }
+}

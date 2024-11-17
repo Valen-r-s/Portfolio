@@ -1,6 +1,6 @@
 "use strict";
 
-// element toggle function
+// Element toggle function
 const elementToggleFunc = function (elem) {
   elem.classList.toggle("active");
 };
@@ -31,3 +31,43 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
   });
 }
+
+// Language toggle functionality
+let currentLanguage = "en"; // Default language
+
+const languageButton = document.getElementById("languageButton");
+const translateElements = document.querySelectorAll("[data-translate]");
+
+// Function to apply translations
+const applyTranslations = (language, translations) => {
+  translateElements.forEach((element) => {
+    const key = element.getAttribute("data-translate");
+    if (translations[language][key]) {
+      element.textContent = translations[language][key];
+    }
+  });
+
+  // Update button text
+  languageButton.textContent = language === "en" ? "Español" : "English";
+};
+
+// Load translations and set initial language
+const loadTranslations = async () => {
+  try {
+    const response = await fetch("./assets/js/translations.json");
+    const translations = await response.json();
+
+    // Apply initial translations
+    applyTranslations(currentLanguage, translations);
+
+    // Add event listener for language toggle
+    languageButton.addEventListener("click", () => {
+      currentLanguage = currentLanguage === "en" ? "es" : "en";
+      applyTranslations(currentLanguage, translations);
+    });
+  } catch (error) {
+    console.error("Error loading translations:", error);
+  }
+};
+
+loadTranslations();
