@@ -303,11 +303,11 @@ main {
 .language-toggle {
   position: fixed;
   top: 5px;
-  right: 5px;
+  left: 5px;
   padding: 8px 13px;
   background-color: var(--onyx);
   color: var(--dark-2);
-  font-size: 0.8rem;
+  font-size: var(--fs-8);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -682,16 +682,16 @@ main {
 .skills-list {
   padding: 20px;
   display: flex;
-  gap: 20px; /* Espacio entre los elementos */
-  flex-wrap: wrap; /* Permite que los elementos bajen de línea si no caben */
-  justify-content: center; /* Centra los elementos en el contenedor */
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skills-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100px; /* Ajusta el ancho de cada elemento */
+  width: 100px;
   text-align: center;
 }
 
@@ -716,10 +716,7 @@ main {
 
 .project-list {
   display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(300px, 1fr)
-  ); /* Define columnas uniformes */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
   margin-bottom: 10px;
 }
@@ -844,20 +841,7 @@ main {
  */
 
 @media (min-width: 450px) {
-  /**
-   * client
-   */
-
-  .clients-item {
-    min-width: calc(33.33% - 10px);
-  }
-
-  /**
-   * #PORTFOLIO, BLOG 
-   */
-
-  .project-img,
-  .blog-banner-box {
+  .project-img {
     height: auto;
   }
 }
@@ -1128,10 +1112,6 @@ main {
   }
 
   /**
-   * ABOUT
-   */
-
-  /**
    * PORTFOLIO
    */
 
@@ -1166,7 +1146,7 @@ main {
     color: var(--dark-gray);
   }
 
-  /* portfolio and blog grid */
+  /* portfolio */
 
   .project-list {
     grid-template-columns: 1fr 1fr;
@@ -1191,16 +1171,6 @@ main {
  */
 
 @media (min-width: 1024px) {
-  /**
-   * CUSTOM PROPERTY
-   */
-
-  :root {
-    /**
-    * shadow
-    */
-  }
-
   /**
    * REUSED STYLE
    */
