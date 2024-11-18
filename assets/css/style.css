@@ -18,8 +18,8 @@
   );
   --bg-gradient-yellow-2: linear-gradient(
     45deg,
-    hsl(45, 68%, 77%) 30%,
-    hsl(35, 80%, 76%) 100%
+    hsla(45, 68%, 77%) 30%,
+    hsla(35, 80%, 76%) 100%
   );
   --border-gradient-onyx: linear-gradient(
     to bottom right,
@@ -840,9 +840,12 @@ main {
  * responsive larger than 450px screen
  */
 
-@media (min-width: 450px) {
+@media (max-width: 450px) {
   .project-img {
     height: auto;
+  }
+  .info_more-btn {
+    padding: 4px 15px;
   }
 }
 
@@ -851,10 +854,6 @@ main {
  */
 
 @media (min-width: 580px) {
-  /**
-   * CUSTOM PROPERTY
-   */
-
   :root {
     /**
      * typography
