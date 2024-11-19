@@ -13,7 +13,7 @@
     "services_title": "What I'm doing",
     "service_1_title": "Interactive Web Development",
     "service_1_text": "Developing engaging and dynamic web experiences using modern technologies like HTML, CSS, JavaScript, and Three.js, delivering interactive and visually appealing websites.",
-    "service_2_title": "Diseño UX/UI",
+    "service_2_title": "UI/UX Design",
     "service_2_text": "Designing intuitive and user-friendly interfaces focused on accessibility, usability, and professional aesthetics for a seamless user experience.",
     "service_3_title": "3D Modeling and Animation",
     "service_3_text": "Developing interactive 3D environments and advanced visualizations using Three.js and Blender, creating immersive web experiences.",
@@ -37,7 +37,11 @@
     "project-category_1": "Made with Three.js",
     "project-category_2": "Made with Unity",
     "project-category_3": "Made with Ps, An",
-    "project-category_4": "Made with HTML, CSS, JS, PHP"
+    "project-category_4": "Made with HTML, CSS, JS, PHP",
+    "cv-link": {
+      "text": "Download CV",
+      "url": "./assets/cv/CV_valentina_restrepo_EN.pdf"
+    }
   },
   "es": {
     "title": "desarrolladora creativa",
@@ -53,7 +57,7 @@
     "services_title": "Lo que hago",
     "service_1_title": "Desarrollo Web Interactivo",
     "service_1_text": "Creación de experiencias web atractivas y dinámicas utilizando tecnologías modernas como HTML, CSS, JavaScript y Three.js, entregando sitios web interactivos y visualmente impactantes.",
-    "service_2_title": "Diseño UX/UI",
+    "service_2_title": "Diseño UI/UX",
     "service_2_text": "Diseño de interfaces intuitivas y fáciles de usar, enfocadas en accesibilidad, usabilidad y una estética profesional para una experiencia de usuario fluida.",
     "service_3_title": "Modelado y Animación 3D",
     "service_3_text": "Desarrollo de entornos 3D interactivos y visualizaciones avanzadas utilizando Three.js y Blender, creando experiencias web inmersivas.",
@@ -77,6 +81,10 @@
     "project-category_1": "Hecho con Three.js",
     "project-category_2": "Hecho con Unity",
     "project-category_3": "Hecho con Ps, An",
-    "project-category_4": "Hecho con HTML, CSS, JS, PHP"
+    "project-category_4": "Hecho con HTML, CSS, JS, PHP",
+    "cv-link": {
+      "text": "Descargar CV",
+      "url": "./assets/cv/CV_valentina_restrepo_ES.pdf"
+    }
   }
 }

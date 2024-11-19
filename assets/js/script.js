@@ -37,6 +37,7 @@ let currentLanguage = "en"; // Default language
 
 const languageButton = document.getElementById("languageButton");
 const translateElements = document.querySelectorAll("[data-translate]");
+const cvLink = document.getElementById("cv-link"); // Select the CV link element
 
 // Function to apply translations
 const applyTranslations = (language, translations) => {
@@ -46,6 +47,12 @@ const applyTranslations = (language, translations) => {
       element.textContent = translations[language][key];
     }
   });
+
+  // Update CV link text and URL
+  if (translations[language]["cv-link"]) {
+    cvLink.textContent = translations[language]["cv-link"].text;
+    cvLink.href = translations[language]["cv-link"].url;
+  }
 
   // Update button text
   languageButton.textContent = language === "en" ? "Español" : "English";
