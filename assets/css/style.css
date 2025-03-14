@@ -834,8 +834,13 @@ main {
 }
 
 .project-title,
-.project-category {
+.project-category,
+.project-item .socials-icons {
   margin-left: 10px;
+}
+
+.project-item .socials-icons {
+  font-size: 22px;
 }
 
 .project-title {
