@@ -42,6 +42,7 @@
     "project-category_2": "Made with Unity",
     "project-category_3": "Made with Ps, An",
     "project-category_4": "Made with HTML, CSS, JS, PHP",
+    "project-category_5": "Made with Maya, Ae",
     "cv-link": {
       "text": "Download CV",
       "url": "./assets/cv/CV_valentina_restrepo_EN.pdf"
@@ -91,6 +92,7 @@
     "project-category_2": "Hecho con Unity",
     "project-category_3": "Hecho con Ps, An",
     "project-category_4": "Hecho con HTML, CSS, JS, PHP",
+    "project-category_5": "Hecho con Maya, Ae",
     "cv-link": {
       "text": "Descargar CV",
       "url": "./assets/cv/CV_valentina_restrepo_ES.pdf"
