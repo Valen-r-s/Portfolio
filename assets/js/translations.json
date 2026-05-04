@@ -20,11 +20,13 @@
     "service_4_title": "Application and Game Development",
     "service_4_text": "Building innovative applications and games, from educational platforms to inspiring video games, utilizing advanced Unity techniques for impactful user experiences.",
     "experience_title": "Experience",
-    "blossom_title": "Clothing Collection Design for Blossom",
-    "painting_company_title": "Visual Identity Design for a Painting Company (USA)",
+    "experience_1_title": "Backend Developer / Quality Engineer",
+    "experience_1_time": "2025 — current",
+    "experience_2_title": "Web Developer — Legal Pass Services",
+    "experience_3_title": "Web Developer — Bioplanet Solutions",
+    "experience_4_title": "Game Developer — GreenRise",
     "education_title": "Education",
     "education_uni_title": "Militar Nueva Granada University",
-    "education_time": "2020 — current",
     "education_major": "Multimedia Engineering",
     "education_school_title": "San Luis High School",
     "complementary_education_title": "Complementary Education",
@@ -42,11 +44,7 @@
     "project-category_2": "Made with Unity",
     "project-category_3": "Made with Ps, An",
     "project-category_4": "Made with HTML, CSS, JS, PHP",
-    "project-category_5": "Made with Maya, Ae",
-    "cv-link": {
-      "text": "Download CV",
-      "url": "./assets/cv/CV_valentina_restrepo_EN.pdf"
-    }
+    "project-category_5": "Made with Maya, Ae"
   },
   "es": {
     "title": "Ingeniera multimedia",
@@ -69,11 +67,13 @@
     "service_4_title": "Desarrollo de Aplicaciones y Videojuegos",
     "service_4_text": "Construcción de aplicaciones y videojuegos innovadores, desde plataformas educativas hasta videojuegos inspiradores, utilizando técnicas avanzadas de Unity para experiencias impactantes.",
     "experience_title": "Experiencia",
-    "blossom_title": "Diseño de Colección de Ropa para Blossom 2023",
-    "painting_company_title": "Diseño de Identidad Visual para Empresa de Pintura (EE. UU.)",
+    "experience_1_title": "Backend Developer / Quality Engineer",
+    "experience_1_time": "2025 — actual",
+    "experience_2_title": "Desarrolladora Web — Legal Pass Services",
+    "experience_3_title": "Desarrolladora Web — Bioplanet Solutions",
+    "experience_4_title": "Desarrolladora De Videojuego — GreenRise",
     "education_title": "Educación",
     "education_uni_title": "Universidad Militar Nueva Granada",
-    "education_time": "2020 — actual",
     "education_major": "Ingeniería Multimedia",
     "education_school_title": "Colegio San Luis",
     "complementary_education_title": "Educación Complementaria",
@@ -92,10 +92,6 @@
     "project-category_2": "Hecho con Unity",
     "project-category_3": "Hecho con Ps, An",
     "project-category_4": "Hecho con HTML, CSS, JS, PHP",
-    "project-category_5": "Hecho con Maya, Ae",
-    "cv-link": {
-      "text": "Descargar CV",
-      "url": "./assets/cv/CV_valentina_restrepo_ES.pdf"
-    }
+    "project-category_5": "Hecho con Maya, Ae"
   }
 }

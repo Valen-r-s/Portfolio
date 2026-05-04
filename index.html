@@ -1,1119 +1,834 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Valentina Restrepo Sánchez</title>
 
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentina Restrepo Sánchez</title>
+
+  <!--
     - favicon
   -->
-    <link
-      rel="shortcut icon"
-      href="./assets/images/me2.png"
-      type="image/x-icon"
-    />
+  <link rel="shortcut icon" href="./assets/images/me2.png" type="image/x-icon" />
 
-    <!--
+  <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!--
+  <!--
     - google font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
-    <!--
+<body>
+  <!--
     - #MAIN
   -->
-    <button id="languageButton" class="language-toggle">Español</button>
+  <button id="languageButton" class="language-toggle">Español</button>
 
-    <main>
-      <!--
+  <main>
+    <!--
       - #SIDEBAR
     -->
 
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img
-              src="./assets/images/me.png"
-              alt="Valentina restrepo"
-              width="80"
-            />
-          </figure>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/me.png" alt="Valentina restrepo" width="80" />
+        </figure>
 
-          <div class="info-content">
-            <h1 class="name" title="Valentina restrepo">Valentina Restrepo</h1>
+        <div class="info-content">
+          <h1 class="name" title="Valentina restrepo">Valentina Restrepo</h1>
 
-            <p class="title" data-translate="title">multimedia engineer</p>
+          <p class="title" data-translate="title">multimedia engineer</p>
 
-            <!-- CV Link -->
-            <p>
-              <a
-                id="cv-link"
-                href="./assets/cv/CV_valentina_restrepo_EN.pdf"
-                target="_blank"
-                data-translate="cv-link"
-                >Download CV</a
-              >
-            </p>
-          </div>
-
-          <button
-            class="info_more-btn"
-            data-sidebar-btn
-            data-translate="contact"
-          >
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+          <!-- CV Link -->
+          <!-- <p>
+            <a id="cv-link" href="./assets/cv/CV_valentina_restrepo_EN.pdf" target="_blank"
+              data-translate="cv-link">Download CV</a>
+          </p> -->
         </div>
 
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
+        <button class="info_more-btn" data-sidebar-btn data-translate="contact">
+          <span>Show Contacts</span>
 
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
 
-              <div class="contact-info">
-                <p class="contact-title" data-translate="mail">mail</p>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
 
-                <a href="mailto:valentina.re.san@gmail.com" class="contact-link"
-                  >valentina.re.san@gmail.com</a
-                >
-              </div>
-            </li>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title" data-translate="mail">mail</p>
 
-              <div class="contact-info">
-                <p class="contact-title" data-translate="phone">Phone</p>
+              <a href="mailto:valentina.re.san@gmail.com" class="contact-link">valentina.re.san@gmail.com</a>
+            </div>
+          </li>
 
-                <a href="tel:+573124421632" class="contact-link"
-                  >+57 (312) 442-1632</a
-                >
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title" data-translate="phone">Phone</p>
 
-              <div class="contact-info">
-                <p class="contact-title" data-translate="location">Location</p>
+              <a href="tel:+573124421632" class="contact-link">+57 (312) 442-1632</a>
+            </div>
+          </li>
 
-                <address>Bogotá, DC, Colombia</address>
-              </div>
-            </li>
-          </ul>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-          <div class="separator"></div>
+            <div class="contact-info">
+              <p class="contact-title" data-translate="location">Location</p>
 
-          <ul class="social-list">
-            <li class="social-item">
-              <a
-                href="https://github.com/Valen-r-s"
-                class="social-link"
-                target="_blank"
-              >
-                <ion-icon class="socials-icons" name="logo-github"></ion-icon>
-              </a>
-            </li>
+              <address>Bogotá, DC, Colombia</address>
+            </div>
+          </li>
+        </ul>
 
-            <li class="social-item">
-              <a
-                href="https://www.linkedin.com/in/valentina-restrepo-0389812a2/"
-                class="social-link"
-                target="_blank"
-              >
-                <ion-icon class="socials-icons" name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+        <div class="separator"></div>
 
-      <!--
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/Valen-r-s" class="social-link" target="_blank">
+              <ion-icon class="socials-icons" name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/valentina-restrepo-0389812a2/" class="social-link" target="_blank">
+              <ion-icon class="socials-icons" name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
       - #main-content
     -->
 
-      <div class="main-content">
-        <!--
+    <div class="main-content">
+      <!--
         - #NAVBAR
       -->
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
-          </ul>
-        </nav>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+        </ul>
+      </nav>
 
-        <!--
+      <!--
         - #ABOUT
       -->
 
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title" data-translate="about_title">
-              About me
-            </h2>
-          </header>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title" data-translate="about_title">
+            About me
+          </h2>
+        </header>
 
-          <section class="about-text">
-            <p data-translate="about_text_1">
-              I am a Multimedia Engineer specializing in interactive product
-              development, UX/UI design, web development, and immersive digital
-              experiences. Passionate about blending technology with creativity,
-              I leverage my expertise in programming, interface design, and
-              usability to craft engaging, high-quality solutions that elevate
-              user interaction and experience.
-            </p>
+        <section class="about-text">
+          <p data-translate="about_text_1">
+            I am a Multimedia Engineer specializing in interactive product
+            development, UX/UI design, web development, and immersive digital
+            experiences. Passionate about blending technology with creativity,
+            I leverage my expertise in programming, interface design, and
+            usability to craft engaging, high-quality solutions that elevate
+            user interaction and experience.
+          </p>
 
-            <p data-translate="about_text_2">
-              With a strong ethical foundation and a critical approach, I bring
-              project management and leadership abilities that enable me to
-              thrive in multidisciplinary teams or entrepreneurial ventures
-              within the multimedia industry. My continuous pursuit of knowledge
-              keeps me at the forefront of industry trends, ensuring innovative
-              and impactful outcomes in all my projects.
-            </p>
-          </section>
+          <p data-translate="about_text_2">
+            With a strong ethical foundation and a critical approach, I bring
+            project management and leadership abilities that enable me to
+            thrive in multidisciplinary teams or entrepreneurial ventures
+            within the multimedia industry. My continuous pursuit of knowledge
+            keeps me at the forefront of industry trends, ensuring innovative
+            and impactful outcomes in all my projects.
+          </p>
+        </section>
 
-          <!--
+        <!--
           - service
         -->
 
-          <section class="service">
-            <h3 class="h3 service-title" data-translate="services_title">
-              What i'm doing
-            </h3>
+        <section class="service">
+          <h3 class="h3 service-title" data-translate="services_title">
+            What i'm doing
+          </h3>
 
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/coding-3-85.svg
-                "
-                    alt="design icon"
-                    width="80"
-                  />
-                </div>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/coding-3-85.svg
+                " alt="design icon" width="80" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4
-                    class="h4 service-item-title"
-                    data-translate="service_1_title"
-                  >
-                    Interactive Web Development
-                  </h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" data-translate="service_1_title">
+                  Interactive Web Development
+                </h4>
 
-                  <p class="service-item-text" data-translate="service_1_text">
-                    Developing engaging and dynamic web experiences using modern
-                    technologies like HTML, CSS, JavaScript, and Three.js,
-                    delivering interactive and visually appealing websites.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text" data-translate="service_1_text">
+                  Developing engaging and dynamic web experiences using modern
+                  technologies like HTML, CSS, JavaScript, and Three.js,
+                  delivering interactive and visually appealing websites.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/social-media-2-95.svg"
-                    alt="Web development icon"
-                    width="80"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/social-media-2-95.svg" alt="Web development icon" width="80" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4
-                    class="h4 service-item-title"
-                    data-translate="service_2_title"
-                  >
-                    UX/UI Design
-                  </h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" data-translate="service_2_title">
+                  UX/UI Design
+                </h4>
 
-                  <p class="service-item-text" data-translate="service_2_text">
-                    Designing intuitive and user-friendly interfaces focused on
-                    accessibility, usability, and professional aesthetics for a
-                    seamless user experience.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text" data-translate="service_2_text">
+                  Designing intuitive and user-friendly interfaces focused on
+                  accessibility, usability, and professional aesthetics for a
+                  seamless user experience.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/3d-model-88.svg"
-                    alt="mobile app icon"
-                    width="80"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/3d-model-88.svg" alt="mobile app icon" width="80" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4
-                    class="h4 service-item-title"
-                    data-translate="service_3_title"
-                  >
-                    3D Modeling and Animation
-                  </h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" data-translate="service_3_title">
+                  3D Modeling and Animation
+                </h4>
 
-                  <p class="service-item-text" data-translate="service_3_text">
-                    Developing interactive 3D environments and advanced
-                    visualizations using Three.js and Blender, creating
-                    immersive web experiences.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text" data-translate="service_3_text">
+                  Developing interactive 3D environments and advanced
+                  visualizations using Three.js and Blender, creating
+                  immersive web experiences.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/gaming-32.svg"
-                    alt="camera icon"
-                    width="80"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/gaming-32.svg" alt="camera icon" width="80" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4
-                    class="h4 service-item-title"
-                    data-translate="service_4_title"
-                  >
-                    Application and Game Development
-                  </h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" data-translate="service_4_title">
+                  Application and Game Development
+                </h4>
 
-                  <p class="service-item-text" data-translate="service_4_text">
-                    Building innovative applications and games, from educational
-                    platforms to inspiring video games, utilizing advanced Unity
-                    techniques for impactful user experiences.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
-        </article>
+                <p class="service-item-text" data-translate="service_4_text">
+                  Building innovative applications and games, from educational
+                  platforms to inspiring video games, utilizing advanced Unity
+                  techniques for impactful user experiences.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-        <!--
+      <!--
         - #RESUME
       -->
 
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title" data-translate="resume">Resume</h2>
-          </header>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title" data-translate="resume">Resume</h2>
+        </header>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3" data-translate="experience_title">Experience</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4
-                  class="h4 timeline-item-title"
-                  data-translate="blossom_title"
-                >
-                  Clothing Collection Design for Blossom
-                </h4>
+            <h3 class="h3" data-translate="experience_title">Experience</h3>
+          </div>
 
-                <span>2023</span>
-              </li>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title" data-translate="experience_1_title">
+              </h4>
 
-              <li class="timeline-item">
-                <h4
-                  class="h4 timeline-item-title"
-                  data-translate="painting_company_title"
-                >
-                  Visual Identity Design for a Painting Company (USA)
-                </h4>
+              <span data-translate="experience_1_time"></span>
+            </li>
 
-                <span>2023</span>
-              </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title" data-translate="experience_2_title">
+              </h4>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Customer Service Representative – Call Center
-                </h4>
+              <span>2025</span>
+            </li>
 
-                <span>2022</span>
-              </li>
-            </ol>
-          </section>
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title" data-translate="experience_4_title">
+              </h4>
 
-              <h3 class="h3" data-translate="education_title">Education</h3>
+              <span>2025</span>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title" data-translate="experience_3_title">
+              </h4>
+
+              <span>2025</span>
+            </li>
+
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4
-                  class="h4 timeline-item-title"
-                  data-translate="education_uni_title"
-                >
-                  Militar Nueva Granada University
-                </h4>
+            <h3 class="h3" data-translate="education_title">Education</h3>
+          </div>
 
-                <span data-translate="education_time">2020 — current</span>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title" data-translate="education_uni_title">
+                Militar Nueva Granada University
+              </h4>
 
-                <p class="timeline-text" data-translate="education_major">
-                  Multimedia Engineering
-                </p>
-              </li>
+              <span>2020 — 2025</span>
 
-              <li class="timeline-item">
-                <h4
-                  class="h4 timeline-item-title"
-                  data-translate="education_school_title"
-                >
-                  San Luis High School
-                </h4>
+              <p class="timeline-text" data-translate="education_major">
+                Multimedia Engineering
+              </p>
+            </li>
 
-                <span>2017</span>
-              </li>
-            </ol>
-          </section>
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title" data-translate="education_school_title">
+                San Luis High School
+              </h4>
 
-              <h3 class="h3" data-translate="complementary_education_title">
-                Complementary Education
-              </h3>
+              <span>2017</span>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Three.js, Three.js Journey.
-                </h4>
-
-                <span>2024</span>
-
-                <p class="timeline-text" data-translate="complementary_1_text">
-                  I developed a strong foundation in 3D web development using
-                  Three.js, learning to create interactive 3D scenes, work with
-                  materials, textures, lighting, and animations to bring dynamic
-                  visuals to life. This course equipped me with the skills to
-                  optimize and manage complex 3D environments, ensuring engaging
-                  and performant web applications.
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4
-                  class="h4 timeline-item-title"
-                  data-translate="complementary_2_title"
-                >
-                  Professional Git and GitHub Course, Platzi.
-                </h4>
-
-                <span>2024</span>
-
-                <p class="timeline-text" data-translate="complementary_2_text">
-                  I gained proficiency in version control with Git and GitHub,
-                  mastering essential commands and workflows to manage code
-                  efficiently in collaborative projects. This course taught me
-                  how to handle branches, resolve conflicts, and maintain a
-                  structured, reliable version history, enabling smooth teamwork
-                  and project tracking.
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4
-                  class="h4 timeline-item-title"
-                  data-translate="complementary_3_title"
-                >
-                  JavaScript Fundamentals Course, Platzi.
-                </h4>
-
-                <span>2024</span>
-
-                <p class="timeline-text" data-translate="complementary_3_text">
-                  I built a solid foundation in JavaScript, understanding core
-                  concepts like variables, data types, functions, and control
-                  structures. This course helped me learn how to structure code
-                  logically, enabling me to create interactive and dynamic web
-                  features effectively.
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4
-                  class="h4 timeline-item-title"
-                  data-translate="complementary_4_title"
-                >
-                  Frontend Developer Course, Platzi.
-                </h4>
-
-                <span>2024</span>
-
-                <p class="timeline-text" data-translate="complementary_4_text">
-                  I developed key skills in frontend development, including
-                  HTML, CSS, and JavaScript, to create responsive, user-friendly
-                  web interfaces. This course covered best practices in layout
-                  design, accessibility, and optimization, equipping me to build
-                  visually appealing and performant websites.
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4
-                  class="h4 timeline-item-title"
-                  data-translate="complementary_5_title"
-                >
-                  Excel Intermediate Course, Platzi.
-                </h4>
-
-                <span>2024</span>
-
-                <p class="timeline-text" data-translate="complementary_5_text">
-                  I strengthened my skills in Excel, mastering advanced
-                  formulas, functions, and data analysis tools. This course
-                  taught me to work efficiently with pivot tables, conditional
-                  formatting, and data visualization, enabling me to handle
-                  large datasets and present insights effectively.
-                </p>
-              </li>
-            </ol>
-          </section>
-
-          <!-- SKILLS -->
-          <section class="skill">
-            <h3 class="h3 skills-title" data-translate="tools_title">Tools</h3>
-
-            <ul class="skills-list content-card">
-              <li class="skills-item">
-                <img
-                  src="/assets/images/blender.png"
-                  alt="Blender Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">Blender</p>
-              </li>
-              <li class="skills-item">
-                <img
-                  src="/assets/images/maya.png"
-                  alt="Maya Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">Maya</p>
-              </li>
-
-              <li class="skills-item">
-                <img
-                  src="/assets/images/git.png"
-                  alt="Git Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">Git</p>
-              </li>
-
-              <li class="skills-item">
-                <img
-                  src="/assets/images/github.png"
-                  alt="Github Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">Github</p>
-              </li>
-
-              <li class="skills-item">
-                <img
-                  src="/assets/images/vsc.png"
-                  alt="Visual Studio Code Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">VSC</p>
-              </li>
-
-              <li class="skills-item">
-                <img
-                  src="/assets/images/VS.png"
-                  alt="Visual Studio Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">VS</p>
-              </li>
-
-              <li class="skills-item">
-                <img
-                  src="/assets/images/unity.png"
-                  alt="Unity Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">Unity</p>
-              </li>
-
-              <li class="skills-item">
-                <img
-                  src="/assets/images/excel.png"
-                  alt="Excel Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">Excel</p>
-              </li>
-
-              <li class="skills-item">
-                <img
-                  src="/assets/images/illustrator.png"
-                  alt="Illustrator Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">Illustrator</p>
-              </li>
-
-              <li class="skills-item">
-                <img
-                  src="/assets/images/photoshop.png"
-                  alt="Photoshop Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">Photoshop</p>
-              </li>
-
-              <li class="skills-item">
-                <img
-                  src="/assets/images/animate.png"
-                  alt="Animate Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">Animate</p>
-              </li>
-
-              <li class="skills-item">
-                <img
-                  src="/assets/images/afterEffects.png"
-                  alt="After Effects Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">After Effects</p>
-              </li>
-
-              <li class="skills-item">
-                <img
-                  src="/assets/images/figma.png"
-                  alt="Figma Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">Figma</p>
-              </li>
-
-              <li class="skills-item">
-                <img
-                  src="/assets/images/Canva.png"
-                  alt="Canvas Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">Canva</p>
-              </li>
-            </ul>
-          </section>
-
-          <!-- DEVELOPMENT -->
-          <section class="skill">
-            <h3 class="h3 development-title" data-translate="development_title">
-              Development
+            <h3 class="h3" data-translate="complementary_education_title">
+              Complementary Education
             </h3>
+          </div>
 
-            <ul class="skills-list content-card">
-              <li class="skills-item">
-                <img
-                  src="/assets/images/html.png"
-                  alt="HTML5 Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">HTML5</p>
-              </li>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Three.js, Three.js Journey.
+              </h4>
 
-              <li class="skills-item">
-                <img
-                  src="/assets/images/css.png"
-                  alt="CSS3 Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">CSS3</p>
-              </li>
+              <span>2024</span>
 
-              <li class="skills-item">
-                <img
-                  src="/assets/images/js.png"
-                  alt="JavaScript Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">JavaScript</p>
-              </li>
+              <p class="timeline-text" data-translate="complementary_1_text">
+                I developed a strong foundation in 3D web development using
+                Three.js, learning to create interactive 3D scenes, work with
+                materials, textures, lighting, and animations to bring dynamic
+                visuals to life. This course equipped me with the skills to
+                optimize and manage complex 3D environments, ensuring engaging
+                and performant web applications.
+              </p>
+            </li>
 
-              <li class="skills-item">
-                <img
-                  src="/assets/images/python.svg"
-                  alt="Python Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">Python</p>
-              </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title" data-translate="complementary_2_title">
+                Professional Git and GitHub Course, Platzi.
+              </h4>
 
-              <li class="skills-item">
-                <img
-                  src="/assets/images/c++.png"
-                  alt="C++ Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">C++</p>
-              </li>
+              <span>2024</span>
 
-              <li class="skills-item">
-                <img
-                  src="/assets/images/c.png"
-                  alt="C# Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">C#</p>
-              </li>
+              <p class="timeline-text" data-translate="complementary_2_text">
+                I gained proficiency in version control with Git and GitHub,
+                mastering essential commands and workflows to manage code
+                efficiently in collaborative projects. This course taught me
+                how to handle branches, resolve conflicts, and maintain a
+                structured, reliable version history, enabling smooth teamwork
+                and project tracking.
+              </p>
+            </li>
 
-              <li class="skills-item">
-                <img
-                  src="/assets/images/PHP-logo.png"
-                  alt="php Logo"
-                  class="tool-logo"
-                />
-                <p class="tool-name">PHP</p>
-              </li>
-            </ul>
-          </section>
-        </article>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title" data-translate="complementary_3_title">
+                JavaScript Fundamentals Course, Platzi.
+              </h4>
 
-        <!--
+              <span>2024</span>
+
+              <p class="timeline-text" data-translate="complementary_3_text">
+                I built a solid foundation in JavaScript, understanding core
+                concepts like variables, data types, functions, and control
+                structures. This course helped me learn how to structure code
+                logically, enabling me to create interactive and dynamic web
+                features effectively.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title" data-translate="complementary_4_title">
+                Frontend Developer Course, Platzi.
+              </h4>
+
+              <span>2024</span>
+
+              <p class="timeline-text" data-translate="complementary_4_text">
+                I developed key skills in frontend development, including
+                HTML, CSS, and JavaScript, to create responsive, user-friendly
+                web interfaces. This course covered best practices in layout
+                design, accessibility, and optimization, equipping me to build
+                visually appealing and performant websites.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title" data-translate="complementary_5_title">
+                Excel Intermediate Course, Platzi.
+              </h4>
+
+              <span>2024</span>
+
+              <p class="timeline-text" data-translate="complementary_5_text">
+                I strengthened my skills in Excel, mastering advanced
+                formulas, functions, and data analysis tools. This course
+                taught me to work efficiently with pivot tables, conditional
+                formatting, and data visualization, enabling me to handle
+                large datasets and present insights effectively.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skill">
+          <h3 class="h3 skills-title" data-translate="tools_title">Tools</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <img src="/assets/images/blender.png" alt="Blender Logo" class="tool-logo" />
+              <p class="tool-name">Blender</p>
+            </li>
+            <li class="skills-item">
+              <img src="/assets/images/maya.png" alt="Maya Logo" class="tool-logo" />
+              <p class="tool-name">Maya</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/git.png" alt="Git Logo" class="tool-logo" />
+              <p class="tool-name">Git</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/github.png" alt="Github Logo" class="tool-logo" />
+              <p class="tool-name">Github</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/vsc.png" alt="Visual Studio Code Logo" class="tool-logo" />
+              <p class="tool-name">VSC</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/VS.png" alt="Visual Studio Logo" class="tool-logo" />
+              <p class="tool-name">VS</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/unity.png" alt="Unity Logo" class="tool-logo" />
+              <p class="tool-name">Unity</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/excel.png" alt="Excel Logo" class="tool-logo" />
+              <p class="tool-name">Excel</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/illustrator.png" alt="Illustrator Logo" class="tool-logo" />
+              <p class="tool-name">Illustrator</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/photoshop.png" alt="Photoshop Logo" class="tool-logo" />
+              <p class="tool-name">Photoshop</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/animate.png" alt="Animate Logo" class="tool-logo" />
+              <p class="tool-name">Animate</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/afterEffects.png" alt="After Effects Logo" class="tool-logo" />
+              <p class="tool-name">After Effects</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/figma.png" alt="Figma Logo" class="tool-logo" />
+              <p class="tool-name">Figma</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/Canva.png" alt="Canvas Logo" class="tool-logo" />
+              <p class="tool-name">Canva</p>
+            </li>
+          </ul>
+        </section>
+
+        <!-- DEVELOPMENT -->
+        <section class="skill">
+          <h3 class="h3 development-title" data-translate="development_title">
+            Development
+          </h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <img src="/assets/images/html.png" alt="HTML5 Logo" class="tool-logo" />
+              <p class="tool-name">HTML5</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/css.png" alt="CSS3 Logo" class="tool-logo" />
+              <p class="tool-name">CSS3</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/js.png" alt="JavaScript Logo" class="tool-logo" />
+              <p class="tool-name">JavaScript</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/python.svg" alt="Python Logo" class="tool-logo" />
+              <p class="tool-name">Python</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/c++.png" alt="C++ Logo" class="tool-logo" />
+              <p class="tool-name">C++</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/c.png" alt="C# Logo" class="tool-logo" />
+              <p class="tool-name">C#</p>
+            </li>
+
+            <li class="skills-item">
+              <img src="/assets/images/PHP-logo.png" alt="php Logo" class="tool-logo" />
+              <p class="tool-name">PHP</p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
         - #PORTFOLIO
       -->
 
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title" data-translate="portfolio">
-              Projects
-            </h2>
-          </header>
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title" data-translate="portfolio">
+            Projects
+          </h2>
+        </header>
 
-          <section class="projects">
-            <div class="filter-select-box">
-              <button class="filter-select" data-select></button>
-            </div>
+        <section class="projects">
+          <div class="filter-select-box">
+            <button class="filter-select" data-select></button>
+          </div>
 
-            <ul class="project-list">
-              <li class="project-item active" data-filter-item>
-                <a href="https://sunset-nine.vercel.app/" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+          <ul class="project-list">
 
-                    <img
-                      src="./assets/images/project-1.png"
-                      alt="sunset"
-                      loading="lazy"
-                    />
-                  </figure>
+            <li class="project-item active" data-filter-item>
+              <a href="https://green-rise.netlify.app" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-                  <h3 class="project-title">Sunset Web App</h3>
+                  <img src="./assets/images/proyect-12.png" alt="Video game photo" loading="lazy" />
+                </figure>
 
-                  <p
-                    class="project-category"
-                    data-translate="project-category_1"
-                  >
-                    Made with Three.js
-                  </p>
-                  <a
-                    href="https://github.com/Valen-r-s/sunset"
-                    class="social-link"
-                    target="_blank"
-                  >
-                    <ion-icon
-                      class="socials-icons"
-                      name="logo-github"
-                    ></ion-icon>
-                  </a>
+                <h3 class="project-title">GreenRise</h3>
+
+                <p class="project-category" data-translate="project-category_2">
+                  Made with Unity
+                </p>
+                <a href="https://github.com/LiaLopez1/SustainableCity" class="social-link" target="_blank">
+                  <ion-icon class="socials-icons" name="logo-github"></ion-icon>
                 </a>
-              </li>
+              </a>
+            </li>
 
-              <li class="project-item active" data-filter-item>
-                <a
-                  href="https://inspiring-dusk-f5d308.netlify.app"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+            <li class="project-item active" data-filter-item>
+              <a href="https://sunset-nine.vercel.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-                    <img
-                      src="./assets/images/project-10.png"
-                      alt="Video game photo"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img src="./assets/images/project-1.png" alt="sunset" loading="lazy" />
+                </figure>
 
-                  <h3 class="project-title">Chamber of Secrets</h3>
+                <h3 class="project-title">Sunset Web App</h3>
 
-                  <p
-                    class="project-category"
-                    data-translate="project-category_2"
-                  >
-                    Made with Unity
-                  </p>
-                  <a
-                    href="https://github.com/Valen-r-s/Deceptive-patterns-Videogame"
-                    class="social-link"
-                    target="_blank"
-                  >
-                    <ion-icon
-                      class="socials-icons"
-                      name="logo-github"
-                    ></ion-icon>
-                  </a>
+                <p class="project-category" data-translate="project-category_1">
+                  Made with Three.js
+                </p>
+                <a href="https://github.com/Valen-r-s/sunset" class="social-link" target="_blank">
+                  <ion-icon class="socials-icons" name="logo-github"></ion-icon>
                 </a>
-              </li>
+              </a>
+            </li>
 
-              <li class="project-item active" data-filter-item>
-                <a
-                  href="https://haunted-house-lake-ten.vercel.app/"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+            <li class="project-item active" data-filter-item>
+              <a href="https://inspiring-dusk-f5d308.netlify.app" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-                    <img
-                      src="./assets/images/project-2.png"
-                      alt="haunted house"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img src="./assets/images/project-10.png" alt="Video game photo" loading="lazy" />
+                </figure>
 
-                  <h3 class="project-title">Haunted House Web App</h3>
+                <h3 class="project-title">Chamber of Secrets</h3>
 
-                  <p
-                    class="project-category"
-                    data-translate="project-category_1"
-                  >
-                    Made with Three.js
-                  </p>
+                <p class="project-category" data-translate="project-category_2">
+                  Made with Unity
+                </p>
+                <a href="https://github.com/Valen-r-s/Deceptive-patterns-Videogame" class="social-link" target="_blank">
+                  <ion-icon class="socials-icons" name="logo-github"></ion-icon>
                 </a>
-              </li>
+              </a>
+            </li>
 
-              <li class="project-item active" data-filter-item>
-                <a
-                  href="https://tranquil-liger-5426be.netlify.app/"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+            <li class="project-item active" data-filter-item>
+              <a href="https://haunted-house-lake-ten.vercel.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-                    <img
-                      src="./assets/images/project-4.png"
-                      alt="VideoGame"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img src="./assets/images/project-2.png" alt="haunted house" loading="lazy" />
+                </figure>
 
-                  <h3 class="project-title">Tech Dreamer</h3>
+                <h3 class="project-title">Haunted House Web App</h3>
 
-                  <p
-                    class="project-category"
-                    data-translate="project-category_2"
-                  >
-                    Made with Unity
-                  </p>
-                  <a
-                    href="https://github.com/Valen-r-s/Tech-Dreamer"
-                    class="social-link"
-                    target="_blank"
-                  >
-                    <ion-icon
-                      class="socials-icons"
-                      name="logo-github"
-                    ></ion-icon>
-                  </a>
+                <p class="project-category" data-translate="project-category_1">
+                  Made with Three.js
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item>
+              <a href="https://tranquil-liger-5426be.netlify.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="VideoGame" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Tech Dreamer</h3>
+
+                <p class="project-category" data-translate="project-category_2">
+                  Made with Unity
+                </p>
+                <a href="https://github.com/Valen-r-s/Tech-Dreamer" class="social-link" target="_blank">
+                  <ion-icon class="socials-icons" name="logo-github"></ion-icon>
                 </a>
-              </li>
+              </a>
+            </li>
 
-              <li class="project-item active" data-filter-item>
-                <a
-                  href="https://galaxy-generator-lake.vercel.app/"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+            <li class="project-item active" data-filter-item>
+              <a href="https://galaxy-generator-lake.vercel.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-                    <img
-                      src="./assets/images/project-3.png"
-                      alt="galaxy generator"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img src="./assets/images/project-3.png" alt="galaxy generator" loading="lazy" />
+                </figure>
 
-                  <h3 class="project-title">Galaxy Generator Web App</h3>
+                <h3 class="project-title">Galaxy Generator Web App</h3>
 
-                  <p
-                    class="project-category"
-                    data-translate="project-category_1"
-                  >
-                    Made with Three.js
-                  </p>
+                <p class="project-category" data-translate="project-category_1">
+                  Made with Three.js
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item>
+              <a href="https://stunning-cat-b4f1ab.netlify.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="pickdash" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Pick Dash Web Game</h3>
+
+                <p class="project-category" data-translate="project-category_2">
+                  Made with Unity
+                </p>
+                <a href="https://github.com/Valen-r-s/WebGLGame" class="social-link" target="_blank">
+                  <ion-icon class="socials-icons" name="logo-github"></ion-icon>
                 </a>
-              </li>
+              </a>
+            </li>
 
-              <li class="project-item active" data-filter-item>
-                <a
-                  href="https://stunning-cat-b4f1ab.netlify.app/"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+            <li class="project-item active" data-filter-item>
+              <a href="https://www.youtube.com/watch?v=ysakrQ_DUF8" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-                    <img
-                      src="./assets/images/project-5.png"
-                      alt="pickdash"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img src="./assets/images/project-11.png" alt="image of the project" loading="lazy" />
+                </figure>
 
-                  <h3 class="project-title">Pick Dash Web Game</h3>
+                <h3 class="project-title">Anaglyph Animation</h3>
 
-                  <p
-                    class="project-category"
-                    data-translate="project-category_2"
-                  >
-                    Made with Unity
-                  </p>
-                  <a
-                    href="https://github.com/Valen-r-s/WebGLGame"
-                    class="social-link"
-                    target="_blank"
-                  >
-                    <ion-icon
-                      class="socials-icons"
-                      name="logo-github"
-                    ></ion-icon>
-                  </a>
+                <p class="project-category" data-translate="project-category_5">
+                  Made with Maya
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item>
+              <a href="https://youtu.be/zmKj8usOWPo" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="ojos noche" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">"Ojos noche" 2D Animation</h3>
+
+                <p class="project-category" data-translate="project-category_3">
+                  Made with Ps, An
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item>
+              <a href="https://frequency-pong.vercel.app" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="pong game" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Frequency Pong</h3>
+
+                <p class="project-category" data-translate="project-category_2">
+                  Made with Unity
+                </p>
+                <a href="https://github.com/Valen-r-s/Frequency-pong" class="social-link" target="_blank">
+                  <ion-icon class="socials-icons" name="logo-github"></ion-icon>
                 </a>
-              </li>
+              </a>
+            </li>
 
-              <li class="project-item active" data-filter-item>
-                <a
-                  href="https://www.youtube.com/watch?v=ysakrQ_DUF8"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+            <li class="project-item active" data-filter-item>
+              <a href="https://portfolio-smoky-alpha-79.vercel.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-                    <img
-                      src="./assets/images/project-11.png"
-                      alt="image of the project"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img src="./assets/images/project-7.png" alt="portfolio" loading="lazy" />
+                </figure>
 
-                  <h3 class="project-title">Anaglyph Animation</h3>
+                <h3 class="project-title">Portfolio Web App</h3>
 
-                  <p
-                    class="project-category"
-                    data-translate="project-category_5"
-                  >
-                    Made with Maya
-                  </p>
+                <p class="project-category" data-translate="project-category_1">
+                  Made with Three.js
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item>
+              <a href="https://green-sense-beige.vercel.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.png" alt="portfolio" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Green Sense e-commerce</h3>
+
+                <p class="project-category" data-translate="project-category_4">
+                  Made with HTML, CSS, JS
+                </p>
+                <a href="https://github.com/Valen-r-s/green-sense" class="social-link" target="_blank">
+                  <ion-icon class="socials-icons" name="logo-github"></ion-icon>
                 </a>
-              </li>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
 
-              <li class="project-item active" data-filter-item>
-                <a href="https://youtu.be/zmKj8usOWPo" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-6.png"
-                      alt="ojos noche"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">"Ojos noche" 2D Animation</h3>
-
-                  <p
-                    class="project-category"
-                    data-translate="project-category_3"
-                  >
-                    Made with Ps, An
-                  </p>
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item>
-                <a href="https://frequency-pong.vercel.app" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-9.png"
-                      alt="pong game"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Frequency Pong</h3>
-
-                  <p
-                    class="project-category"
-                    data-translate="project-category_2"
-                  >
-                    Made with Unity
-                  </p>
-                  <a
-                    href="https://github.com/Valen-r-s/Frequency-pong"
-                    class="social-link"
-                    target="_blank"
-                  >
-                    <ion-icon
-                      class="socials-icons"
-                      name="logo-github"
-                    ></ion-icon>
-                  </a>
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item>
-                <a
-                  href="https://portfolio-smoky-alpha-79.vercel.app/"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-7.png"
-                      alt="portfolio"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Portfolio Web App</h3>
-
-                  <p
-                    class="project-category"
-                    data-translate="project-category_1"
-                  >
-                    Made with Three.js
-                  </p>
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item>
-                <a href="https://green-sense-beige.vercel.app/" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-8.png"
-                      alt="portfolio"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Green Sense e-commerce</h3>
-
-                  <p
-                    class="project-category"
-                    data-translate="project-category_4"
-                  >
-                    Made with HTML, CSS, JS
-                  </p>
-                  <a
-                    href="https://github.com/Valen-r-s/green-sense"
-                    class="social-link"
-                    target="_blank"
-                  >
-                    <ion-icon
-                      class="socials-icons"
-                      name="logo-github"
-                    ></ion-icon>
-                  </a>
-                </a>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </div>
-    </main>
-
-    <!--
+  <!--
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 
-    <!--
+  <!--
     - ionicon link
   -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
